@@ -1,0 +1,80 @@
+{
+   "checksum": "1b854e5a368aba95ba00baae27559088",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13165274955757039",
+            "date_last_used": "0",
+            "guid": "4ba0d627-1863-4223-8de1-ac5fefeeeb2c",
+            "id": "7",
+            "name": "laptops and netbooks :: legion series :: legion y520 15ikbm :: 80yy Lenovo PC Support",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://pcsupport.lenovo.com/eg/en/products/laptops-and-netbooks/legion-series/legion-y520-15ikbm/80yy/downloads"
+         }, {
+            "date_added": "13165274962655414",
+            "date_last_used": "0",
+            "guid": "568bf8fd-ad38-4b0d-8fa4-1344979968a4",
+            "id": "8",
+            "name": "NVIDIA Driver Downloads - Automatically Detect NVIDIA Products",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "http://www.nvidia.com/Download/Scan.aspx?lang=en-us"
+         }, {
+            "date_added": "13183802891200474",
+            "date_last_used": "0",
+            "guid": "31ecd0af-cc0d-48b0-9eba-2725c2b6a231",
+            "id": "9",
+            "name": "ألوان الوطن | لغز الطفلين الخضر الذي حير الجميع.. هل جاءوا من الفضاء أم من بعد آخر؟",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://alwan.elwatannews.com/news/details/2515743"
+         }, {
+            "date_added": "13183802895645679",
+            "date_last_used": "0",
+            "guid": "eaa140f7-6fb7-4426-aef2-d59d34f03032",
+            "id": "10",
+            "name": "ألوان الوطن | \"بورلي\".. منزل يثير الفزع في أهل قرية بريطانية ينتهي بالحرق",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://alwan.elwatannews.com/news/details/3719560/%D8%A8%D9%88%D8%B1%D9%84%D9%8A-%D9%85%D9%86%D8%B2%D9%84-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D9%81%D8%B2%D8%B9-%D9%81%D9%8A-%D8%A3%D9%87%D9%84-%D9%82%D8%B1%D9%8A%D8%A9-%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A9-%D9%8A%D9%86%D8%AA%D9%87%D9%8A-%D8%A8%D8%A7%D9%84%D8%AD%D8%B1%D9%82"
+         } ],
+         "date_added": "13340586416890143",
+         "date_last_used": "0",
+         "date_modified": "13183802895645679",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13340586416890145",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13340586416890148",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCJ7qM+iKAQAAEgAgASoYMUJJM3VhSDl1VXlLZFpYVXEyekVuZz09oAYMEokBCAMShAEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDE1MGQ4YWVjLWFhNGQtNTQwYy04MGJmLWVkN2I1NWRmZTBkMxgAIAAoADDy1ee1xi447bPLhfgvQO2zy4X4L0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASiQEIAhKEAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkYzczYTFiYTMtZGNmYy01YzNmLWI2NmQtMmViY2NjODgzNGRkGAAgACgAMO7V57XGLjiQs8uF+C9AkLPLhfgvShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAABKoAQgKEqMBChxDMTJhYnNWTTRFZDhhK0NLS2svaGZ1NDRuOFU9EiRkM2ExOTgwMS0xMTQ3LTQ2YmMtYjRmMi1iZTA1OGE5OTA3N2IYACADKAMwh43jwa4xOJPry4X4L0DvpOLBrjFKHDl1bUhzUmRscUxvZHh5dEpDL0hpbHlWSGZibz1aHyId2DNCQ21CdEhyVUhseDVJaS9HWFJ0MkNQd2FpMD1lAAAAABKnAQgHEqIBChxRTjlMc0drUmg3Sm9abEhoQU1McitDazdlN0k9EiQxMTMzODg5OS00YTAzLTQxOTUtYWMwZS01M2YwMmI4ZjQ1MTEYACADKAMwhY3jwa4xOOTqy4X4L0DvpOLBrjFKHGtZa3FsdXphWHdHNmphR1ROamZMajdpVEtBTT1aHiIcMlNlNUs0WGpRSnpiaGtPWlJGNEVXWHZ5QzYwPWUAAAAAEqcBCAgSogEKHGxDNWd2a2FxZnRWMzBOODZ6dVpab0xxWUl4ND0SJDQwZTE5OWNkLWFmYTUtNGEzYy1iMzRkLTQxYTk5YTE1OGM4ZBgAIAMoAzCEjePBrjE49OrLhfgvQO+k4sGuMUocaFkzRkJ1ZmpNVi9ndGRPMmFzUTNVSVBZN2JFPVoeIhxhVVVTUHpjNytqSGRYZVVsMVhFM0llN1Bzc1U9ZQAAAAASiQEIARKEAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkNWFkYTMxOGItNzllZC01OTkyLWExODktZGYzODk4YjFmOTU5GAAgACgAMO3V57XGLjjwssuF+C9A8LLLhfgvShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKoAQgJEqMBChxOeTZuMGRiUmhtNGJJT2tmb2FYWnpiVXdnM2M9EiRjYjU2NmZmNy0zMzI2LTQ0YzQtOTg1NC1mZmJjNWE5NWU3ODAYACADKAMwho3jwa4xOIPry4X4L0DvpOLBrjFKHGxmeTF3dnJMbGw1d3lNS2JDQ2w2ZUd2S1RWcz1aHyIdsC9RdGViTE9ZQ1VDd2FaYWEvZDVaM0RISGZvVT1lAAAAADAAOAA=",
+   "version": 1
+}
