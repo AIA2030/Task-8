@@ -1,5 +1,5 @@
 {
-   "checksum": "1b854e5a368aba95ba00baae27559088",
+   "checksum": "a576f75850c44ba44199feaac900da7e",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -8,8 +8,6 @@
             "guid": "4ba0d627-1863-4223-8de1-ac5fefeeeb2c",
             "id": "7",
             "name": "laptops and netbooks :: legion series :: legion y520 15ikbm :: 80yy Lenovo PC Support",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://pcsupport.lenovo.com/eg/en/products/laptops-and-netbooks/legion-series/legion-y520-15ikbm/80yy/downloads"
          }, {
@@ -18,8 +16,6 @@
             "guid": "568bf8fd-ad38-4b0d-8fa4-1344979968a4",
             "id": "8",
             "name": "NVIDIA Driver Downloads - Automatically Detect NVIDIA Products",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "http://www.nvidia.com/Download/Scan.aspx?lang=en-us"
          }, {
@@ -28,8 +24,6 @@
             "guid": "31ecd0af-cc0d-48b0-9eba-2725c2b6a231",
             "id": "9",
             "name": "ألوان الوطن | لغز الطفلين الخضر الذي حير الجميع.. هل جاءوا من الفضاء أم من بعد آخر؟",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://alwan.elwatannews.com/news/details/2515743"
          }, {
@@ -38,8 +32,6 @@
             "guid": "eaa140f7-6fb7-4426-aef2-d59d34f03032",
             "id": "10",
             "name": "ألوان الوطن | \"بورلي\".. منزل يثير الفزع في أهل قرية بريطانية ينتهي بالحرق",
-            "show_icon": false,
-            "source": "sync",
             "type": "url",
             "url": "https://alwan.elwatannews.com/news/details/3719560/%D8%A8%D9%88%D8%B1%D9%84%D9%8A-%D9%85%D9%86%D8%B2%D9%84-%D9%8A%D8%AB%D9%8A%D8%B1-%D8%A7%D9%84%D9%81%D8%B2%D8%B9-%D9%81%D9%8A-%D8%A3%D9%87%D9%84-%D9%82%D8%B1%D9%8A%D8%A9-%D8%A8%D8%B1%D9%8A%D8%B7%D8%A7%D9%86%D9%8A%D8%A9-%D9%8A%D9%86%D8%AA%D9%87%D9%8A-%D8%A8%D8%A7%D9%84%D8%AD%D8%B1%D9%82"
          } ],
@@ -48,8 +40,7 @@
          "date_modified": "13183802895645679",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
-         "name": "Favorites bar",
-         "source": "unknown",
+         "name": "Bookmarks bar",
          "type": "folder"
       },
       "other": {
@@ -59,8 +50,7 @@
          "date_modified": "0",
          "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
          "id": "2",
-         "name": "Other favorites",
-         "source": "unknown",
+         "name": "Other bookmarks",
          "type": "folder"
       },
       "synced": {
@@ -70,11 +60,9 @@
          "date_modified": "0",
          "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
          "id": "3",
-         "name": "Mobile favorites",
-         "source": "unknown",
+         "name": "Mobile bookmarks",
          "type": "folder"
       }
    },
-   "sync_metadata": "CjEKDgiIgQISCIjGOOiKAQAAEgAgASoYMUJJM3VhSDl1VXlLZFpYVXEyekVuZz09oAYMEqgBCAkSowEKHE55Nm4wZGJSaG00YklPa2ZvYVhaemJVd2czYz0SJGNiNTY2ZmY3LTMzMjYtNDRjNC05ODU0LWZmYmM1YTk1ZTc4MBgAIAMoAzCGjePBrjE4g+vLhfgvQO+k4sGuMUocbGZ5MXd2ckxsbDV3eU1LYkNDbDZlR3ZLVFZzPVofIh2wL1F0ZWJMT1lDVUN3YVphYS9kNVozREhIZm9VPWUAAAAAEokBCAEShAEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0SJDVhZGEzMThiLTc5ZWQtNTk5Mi1hMTg5LWRmMzg5OGIxZjk1ORgAIAAoADDt1ee1xi448LLLhfgvQPCyy4X4L0ocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASpwEICBKiAQocbEM1Z3ZrYXFmdFYzME44Nnp1WlpvTHFZSXg0PRIkNDBlMTk5Y2QtYWZhNS00YTNjLWIzNGQtNDFhOTlhMTU4YzhkGAAgAygDMISN48GuMTj06suF+C9A76Tiwa4xShxoWTNGQnVmak1WL2d0ZE8yYXNRM1VJUFk3YkU9Wh4iHGFVVVNQemM3K2pIZFhlVWwxWEUzSWU3UHNzVT1lAAAAABKnAQgHEqIBChxRTjlMc0drUmg3Sm9abEhoQU1McitDazdlN0k9EiQxMTMzODg5OS00YTAzLTQxOTUtYWMwZS01M2YwMmI4ZjQ1MTEYACADKAMwhY3jwa4xOOTqy4X4L0DvpOLBrjFKHGtZa3FsdXphWHdHNmphR1ROamZMajdpVEtBTT1aHiIcMlNlNUs0WGpRSnpiaGtPWlJGNEVXWHZ5QzYwPWUAAAAAEqgBCAoSowEKHEMxMmFic1ZNNEVkOGErQ0tLay9oZnU0NG44VT0SJGQzYTE5ODAxLTExNDctNDZiYy1iNGYyLWJlMDU4YTk5MDc3YhgAIAMoAzCHjePBrjE4k+vLhfgvQO+k4sGuMUocOXVtSHNSZGxxTG9keHl0SkMvSGlseVZIZmJvPVofIh3YM0JDbUJ0SHJVSGx4NUlpL0dYUnQyQ1B3YWkwPWUAAAAAEokBCAIShAEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGM3M2ExYmEzLWRjZmMtNWMzZi1iNjZkLTJlYmNjYzg4MzRkZBgAIAAoADDu1ee1xi44kLPLhfgvQJCzy4X4L0ocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASiQEIAxKEAQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkMTUwZDhhZWMtYWE0ZC01NDBjLTgwYmYtZWQ3YjU1ZGZlMGQzGAAgACgAMPLV57XGLjjts8uF+C9A7bPLhfgvShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAADAAOAA=",
    "version": 1
 }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_project/secondscreen.dart';
 
 void main() => runApp(const Mymaterial());
 
@@ -7,24 +8,39 @@ class Mymaterial extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:myfirstscreen(),
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home:  Signinpage(title: 'Sign IN', ),
     );
   }
 }
 
-class myfirstscreen extends StatelessWidget {
-  const myfirstscreen({super.key});
+class Signinpage extends StatefulWidget {
+  const Signinpage({super.key, required this.title });
+  final String title;
+
+  @override
+  State<Signinpage> createState() => _SigninpageState();
+}
+
+class _SigninpageState extends State<Signinpage> {
+
+  final username =TextEditingController();
+  final password =TextEditingController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
-      appBar: AppBar(title: const SizedBox(
+      appBar:AppBar(
+        title: const SizedBox(
         child: Center(
           child: Column(
-            children: [
+            children: <Widget>[
               Icon(Icons.diamond, color: Colors.amber, ),
               Text("SHRINE",style: TextStyle(
                 color: Colors.white,
@@ -35,90 +51,97 @@ class myfirstscreen extends StatelessWidget {
             ],
           ),
         ),
-      ) ,
-      leading: IconButton (icon: const Icon(Icons.menu), onPressed: () {  },),
+        ),
 
+        leading: IconButton(icon: Icon ( Icons.menu, color: Colors.white,), onPressed: () async { },  ),
         actions: [
           //IconButton(icon: Icon(Icons.diamond, color: Colors.amber,),alignment: Alignment.center,onPressed: () {  },),
 
-          IconButton(icon: const Icon(Icons.account_circle_rounded),onPressed: () {  },),
+          IconButton(icon: const Icon( Icons.account_circle_rounded, color: Colors.amber,),onPressed: () {  },),
         ],
-
-        backgroundColor: Colors.black,
-      ),
-      
-      body: ListView(
-    children: [
-      Column(
-          children: [
-           Container(
-             padding: const EdgeInsets.fromLTRB(35,100,35,0),
-
-            child: Column(
-              children: [
+         backgroundColor: Colors.black,
+      ) ,
+      body: SafeArea(
+        child: ListView(
+          padding: EdgeInsets.symmetric(horizontal: 24.0),
+          children: <Widget> [
+            const SizedBox(height: 80.0,),
+            Column(
+              children: <Widget>[
                 const Icon(Icons.diamond, color: Colors.amber, size: 70,),
-
-                const SizedBox(height: 10.0,),
-
+                const SizedBox(height: 16.0,),
                 const Text("SHRINE", style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 0.8,
                   fontSize: 20,
                 ),),
-
                 const SizedBox(height: 120.0,),
-
-                const TextField(
-                  decoration: InputDecoration(
-                    filled: true,
-                    labelText: 'Username',
-                  ),
-                  style: TextStyle(
-                    color: Colors.black,
-                    letterSpacing: 0.8,
-                    fontSize: 20,
-                  ),
-                ),
-
-                const SizedBox(height: 12.0,),
-
-                const TextField(
-                  decoration: InputDecoration(
-                    filled: true,
-                    labelText: 'Password',
-                  ),
-                ),
-
-                const SizedBox(height: 70.0,),
-                
-                ElevatedButton(onPressed: () { Navigator.pop(context);
-                },
-                style: ElevatedButton.styleFrom(
-               backgroundColor: Colors.black,
-                  fixedSize: const Size(150, 60),
-                ),
-                child: const Text("Sign IN", style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.w900,
-                  letterSpacing: 0.8,
-                  fontSize: 25,
-                ),),
-                ),
-
-
+                // TODO: Remove filled: true values (103)
+                // TODO: Add TextField widgets (101)
+                // TODO: Add button bar (101)
               ],
             ),
 
+             TextField(
+              controller: username,
+              decoration: InputDecoration(
+                filled: true,
+                labelText: 'Username',
+              ),
+              style: TextStyle(
+                color: Colors.black,
+                letterSpacing: 0.8,
+                fontSize: 20,
+              ),
+            ),
 
+            const SizedBox(height: 12.0,),
 
+             TextField(
+              controller: password,
+              decoration: InputDecoration(
+                filled: true,
+                labelText: 'Password',
+              ),
+                obscureText:true,
+            ),
+
+            const SizedBox(height: 70.0,),
+
+          OverflowBar(
+            alignment: MainAxisAlignment.end,
+            children: <Widget>[
+
+              TextButton(child: const Text("CANCEL"), onPressed: (){
+                username.clear();
+                password.clear();
+              } ),
+
+              ElevatedButton(onPressed: (){
+                var builder;
+                Navigator.push(
+                  context,MaterialPageRoute(builder: (context) =>
+                    SecondScreen(data: "Welcome  ${username.text}",passdate: "password : ${password.text}",))
+                );
+              },style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.black,
+                ),
+                  child: const Text("NEXT",style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w900,
+                    letterSpacing: 0.8,
+                  ),)),
+
+            ],
+
+          )
+
+          ],
+
+        ),
       ),
-
-        ],
-      ),
-
-    ],
-    )
     );
   }
 }
+
