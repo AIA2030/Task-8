@@ -15,7 +15,7 @@ class Mymaterial extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  Signinpage(title: 'Sign IN', ),
+      home:  const Signinpage(title: 'Sign IN', ),
     );
   }
 }
@@ -53,7 +53,7 @@ class _SigninpageState extends State<Signinpage> {
         ),
         ),
 
-        leading: IconButton(icon: Icon ( Icons.menu, color: Colors.white,), onPressed: () async { },  ),
+        leading: IconButton(icon: const Icon ( Icons.menu, color: Colors.white,), onPressed: () async { },  ),
         actions: [
           //IconButton(icon: Icon(Icons.diamond, color: Colors.amber,),alignment: Alignment.center,onPressed: () {  },),
 
@@ -63,20 +63,20 @@ class _SigninpageState extends State<Signinpage> {
       ) ,
       body: SafeArea(
         child: ListView(
-          padding: EdgeInsets.symmetric(horizontal: 24.0),
+          padding: const EdgeInsets.symmetric(horizontal: 24.0),
           children: <Widget> [
             const SizedBox(height: 80.0,),
-            Column(
+            const Column(
               children: <Widget>[
-                const Icon(Icons.diamond, color: Colors.amber, size: 70,),
-                const SizedBox(height: 16.0,),
-                const Text("SHRINE", style: TextStyle(
+                Icon(Icons.diamond, color: Colors.amber, size: 70,),
+                SizedBox(height: 16.0,),
+                Text("SHRINE", style: TextStyle(
                   color: Colors.black,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 0.8,
                   fontSize: 20,
                 ),),
-                const SizedBox(height: 120.0,),
+                SizedBox(height: 120.0,),
                 // TODO: Remove filled: true values (103)
                 // TODO: Add TextField widgets (101)
                 // TODO: Add button bar (101)
@@ -85,11 +85,11 @@ class _SigninpageState extends State<Signinpage> {
 
              TextField(
               controller: username,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 filled: true,
                 labelText: 'Username',
               ),
-              style: TextStyle(
+              style: const TextStyle(
                 color: Colors.black,
                 letterSpacing: 0.8,
                 fontSize: 20,
@@ -100,7 +100,7 @@ class _SigninpageState extends State<Signinpage> {
 
              TextField(
               controller: password,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 filled: true,
                 labelText: 'Password',
               ),
@@ -119,7 +119,6 @@ class _SigninpageState extends State<Signinpage> {
               } ),
 
               ElevatedButton(onPressed: (){
-                var builder;
                 Navigator.push(
                   context,MaterialPageRoute(builder: (context) =>
                     SecondScreen(data: "Welcome  ${username.text}",passdate: "password : ${password.text}",))
